@@ -3,17 +3,17 @@ layout: workshop
 root: .
 venue: "Scripting Carpentry"
 address: Puget Sound Regional Council, 1011 Western Ave, Suite 500, Seattle WA
-country: us    # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: en   # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: 47.6054148,-122.337372     # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
-humandate: "December, 2015"
+country: us
+language: en
+latlng: 47.6054148,-122.337372
+humandate: "March 28, 2016"
 humantime: "12:30 pm - 4:30 pm daily"
-startdate: "2015-12-15"  # use YYYY-MM-DD format like "2015-01-01"
-enddate: "2015-12-16"    # use YYYY-MM-DD format like" 2015-01-02"
-instructor: ["Billy Charlton", "Peter&nbsp;Caballero", "Suzanne&nbsp;Childress", "Brice&nbsp;Nichols", "Hana&nbsp;Ševčíková", "Stefan&nbsp;Coe"]
-helper: ['TBD']
+startdate: "2016-03-28"  # use YYYY-MM-DD format like "2015-01-01"
+enddate: "2016-03-28"    # use YYYY-MM-DD format like" 2015-01-02"
+instructor: ["Billy Charlton", "Suzanne&nbsp;Childress", "Brice&nbsp;Nichols", "Hana&nbsp;Ševčíková"]
+helper: ['Peter Caballero, Stefan Coe']
 contact: "bcharlton@psrc.org"
-etherpad: "https://public.etherpad-mozilla.org/p/psrc-scripting-workshop-2015"
+etherpad: "https://public.etherpad-mozilla.org/p/psrc-scripting-workshop-2016"
 eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
 ---
 
@@ -234,6 +234,8 @@ We maintain a list of common issues that occur during installation as a referenc
 ### Windows Instructions
 
 #### A. Git and the Unix 'Bash' Shell
+
+***You need the latest version of 64-bit Git. Even if you already have Git installed on your PC, replace it with this new version.***
 
 Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code
 on [github.com](https://github.com). You will need a [supported web browser](https://help.github.com/articles/supported-browsers) (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
