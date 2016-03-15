@@ -110,7 +110,7 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-shell">Command-Line Ninja: The Bash Shell</h3>
+    <h3 id="syllabus-shell">Command-Line Ninja:<br/>The Bash Shell</h3>
     <i>March 21, 8:30am - 12:30pm</i>
     <ul>
       <li>Why learn the bash shell?</li>
@@ -193,8 +193,8 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
     <h3 id="syllabus-make">Automation with Make</h3>
     <i>April 19, 12:30pm - 4:30pm</i>
     <ul>
-      <li>Introduction: why use a "build tool"?</li>
-      <li>Rules for building things using Makefiles</li>
+      <li>Introduction: why use a build tool?</li>
+      <li>Makefiles: rules for building things</li>
       <li>Don't repeat yourself: automatic variables</li>
       <li>Dependencies on data and code</li>
       <li>Patterns, wildcards, and substitution rules</li>
@@ -220,12 +220,11 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
   e.g., '2015-06-10-esu'.
 -->
 
+------
 
 ## Setup
 
 You MUST set up the following software before the class begins.
-
-**Be sure to set up all six software items below on your primary desktop computer ahead of time -- before the day of the course.**
 
 At the workshop, you will be using a laptop to remote control your primary work computer: that way, all the software setup can happen ahead of time, and all the software will be waiting for you when you get back to your desk after the workshop.
 
@@ -236,26 +235,28 @@ A list of common issues that occur during installation as a reference: [Configur
 
 ### Windows Instructions
 
+**Be sure to set up all six software items below on your primary desktop computer ahead of time -- before the day of the course.**
+
 #### 1. Git and the Unix 'Bash' Shell
 
-***You need the latest version of 64-bit Git. Even if you already have Git installed on your PC, replace it with this new version.***
+*You need the **latest version of 64-bit Git**. Even if you already have Git installed on your PC, replace it with this new version.*
 
-Git lets you track and share changes made to files. Bash is a commonly-used command-line "shell" that gives you the power to do simple tasks more quickly.
+Git lets you track and share changes made to files, and Bash is a command-line "shell" (command interpreter) that gives you the power to do simple tasks more quickly.
 
 On Windows, the easiest way to get both Git and Bash is to use the Git for Windows installer.
 
-Be sure to select the correct installer options listed below!
+*Be sure to select the correct installer options listed below!*
 
 1. Download the [Git for Windows Installer](https://git-for-windows.github.io).
 2. Run the installer
 3. Click on "Next" **twice**, to get to the "Adjusting your PATH environment" page.
-4. **Select "Use Git from the Windows Command Prompt" and click on "Next".** If you forget to do this, programs that you need for the workshop will not work properly. If this happens, rerun the installer and select the appropriate option.
+4. Select **"Use Git from the Windows Command Prompt"** and click on "Next". If you forget to do this, programs that you need for the workshop *will not work properly.* If this happens, rerun the installer and select the appropriate option.
 5. Keep **"Checkout Windows-style, commit Unix-style line endings"** selected. Click "Next".
 6. Select **"Use Windows' default console window"** and click on "Next" and "Finish".
 
 #### 2. ConsoleZ Command Terminal
 
-ConsoleZ is a much nicer "terminal" program that has a legible font, resizable window, and more. You'll use ConsoleZ to use the Bash program instead of using the "Git Bash" icon. Git Bash still works, but its window is janky.
+[ConsoleZ](https://github.com/cbucher/console/wiki) is a much nicer terminal program that has a legible font, resizable window, and more. You'll use ConsoleZ to use the Bash program instead of using the "Git Bash" icon. Git Bash still works, but its window is janky.
 
 * Download the [ConsoleZ Installer](/scripting-workshop-2016/setup/ConsoleZ-Installer.exe) and follow the default installer prompts.
 * If Chrome or Firefox warns you that the installer file is untrusted, just go along with it. I created the installer here at PSRC and it is safe to install.
@@ -269,7 +270,7 @@ When you're writing scripts, it's nice to have a text editor that is optimized f
 
 * To install nano, download the [Software Carpentry Windows installer](https://github.com/swcarpentry/windows-installer/releases/latest) and double click on the file to run it.
 
-* **Others editors** that you may want to use are [Notepad++](http://notepad-plus-plus.org) or [Sublime Text](http://www.sublimetext.com). Be aware that you must add the editor's installation directory to your system path. Please ask a coworker or your instructor for assistance if you don't know how to edit your system path.
+* **Others editors** in use at PSRC that you may want to use or try include [Notepad++](http://notepad-plus-plus.org) and [Sublime Text](http://www.sublimetext.com). Be aware that you must add the editor's installation directory to your system path. Please ask a coworker or your instructor for assistance if you don't know how to edit your system path.
 
 
 #### 4. Python
@@ -305,11 +306,11 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
 
 **To check you have the correct version of Python:**
 
-* Download [swc-installation-test-1.py](/2015-12-scripting-workshop/setup/swc-installation-test-1.py)
-* Open up a Bash shell - start "Git Bash" on Windows, or "Terminal" on Mac
-* Change into the directory where you put the script by typing in the bash window:
+1 Download [swc-installation-test-1.py](/2015-12-scripting-workshop/setup/swc-installation-test-1.py)
+2 Open up a Bash shell - start "ConsoleZ" or Git Bash" on Windows, or "Terminal" on Mac
+3 Change into the directory where you put the script by typing in the bash window:
    * <code>cd ~/Downloads</code>
-* Run the script:
+4 Run the script:
    * <code>python swc-installation-test-1.py</code>
 
 **To check you have set up the other software requirements correctly:**
@@ -326,21 +327,23 @@ If anything is missing, the script output will specify what needs to be correcte
 
 ### Mac OS X
 
-* **Bash:** the default shell in all versions of Mac OS X is Bash, so no need to install anything.
-  * You access Bash from the Terminal
+**Bash:** the default shell in all versions of Mac OS X is Bash, so no need to install anything.
+* You access Bash from the Terminal
         (found in <code>/Applications/Utilities</code>). You may want to keep Terminal in your dock for this workshop.
-* **Git:**
-  * For OS X 10.9 and higher, install Git for Mac by downloading and running the most recent "mavericks" installer from
+**Git:** For OS X 10.9 and higher, install Git for Mac by downloading and running the most recent "mavericks" installer from
         [this list](http://sourceforge.net/projects/git-osx-installer/files/). After installing Git, there will not be anything in your <code>/Applications</code> folder, as Git is a command line program.
-  * For older versions of OS X (10.5-10.8), use the most recent available installer labelled "snow-leopard" [available here](http://sourceforge.net/projects/git-osx-installer/files).
-* **Python:** We recommend the Continuum Ananconda Python all-in-one python installer, which installs a basic Python system as well as the scientific computing modules required for this course.
-  * Open [http://continuum.io/downloads](http://continuum.io/downloads) with your web browser.
-  * Download the Python 2.7 installer for OS X.  We are not using Python 3 yet.
-  * Install Python 2.7 using all of the defaults for installation.
-* **SQLite**. SQLite comes pre-installed on Mac OS X.
-* **R Statistics**
-  * Install R by downloading and running [this .pkg file](http://cran.r-project.org/bin/macosx/R-latest.pkg)from [CRAN](http://cran.r-project.org/index.html).
-  * Also install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop).
+* For older versions of OS X (10.5-10.8), use the most recent available installer labelled "snow-leopard" [available here](http://sourceforge.net/projects/git-osx-installer/files).
+
+*Python:** We recommend the Continuum Ananconda Python all-in-one python installer, which installs a basic Python system as well as the scientific computing modules required for this course.
+* Open [http://continuum.io/downloads](http://continuum.io/downloads) with your web browser.
+* Download the Python 2.7 installer for OS X.  We are not using Python 3 yet.
+* Install Python 2.7 using all of the defaults for installation.
+
+**SQLite**. SQLite comes pre-installed on Mac OS X.
+
+**R Statistics.** Install R by downloading and running [this .pkg file](http://cran.r-project.org/bin/macosx/R-latest.pkg)from [CRAN](http://cran.r-project.org/index.html).
+
+* Also install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop).
 
 ---
 
