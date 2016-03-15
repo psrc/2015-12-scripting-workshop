@@ -259,6 +259,7 @@ Installation instructions for both Git and Bash:
 [ConsoleZ](https://github.com/cbucher/console/wiki) is a much nicer terminal program that has a legible font, resizable window, and more. You'll use ConsoleZ to use the Bash program instead of using the "Git Bash" icon. Git Bash still works, but its window is janky.
 
 * Download the [ConsoleZ Installer](/scripting-workshop-2016/setup/ConsoleZ-Installer.exe) and follow the default installer prompts.
+  * ConsoleZ installer is also saved on the network at X:\DSA\Software
 * If Chrome or Firefox warns you that the installer file is untrusted, just go along with it. I created the installer here at PSRC and it is safe to install.
 
 
