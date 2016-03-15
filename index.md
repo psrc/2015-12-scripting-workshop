@@ -226,15 +226,13 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
 
 ## Setup
 
-To participate in a Software Carpentry workshop, you will need
-access to the software described below. In addition, you will
-need an up-to-date web browser.
+You MUST set up the following software before the class begins.
 
 **Be sure to set up all five software items below on your primary desktop computer ahead of time -- before the day of the course.**
 
-At the workshop, you may be using a borrowed laptop to remote control your primary work computer: that way, all the software setup can happen ahead of time. Added bonus: all the software will be at your fingertips when you return to your desk afterwards, too.
+At the workshop, you will be using a borrowed laptop to remote control your primary work computer: that way, all the software setup can happen ahead of time. Added bonus: all the software will be right at your fingertips when you get back to your desk, ready for you to dive in.
 
-We maintain a list of common issues that occur during installation as a reference for instructors that may be useful on the [Configuration Problems and Solutions wiki page](https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions).
+A list of common issues that occur during installation as a reference: [Configuration Problems and Solutions wiki page](https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions).
 
 
 ---
@@ -245,55 +243,42 @@ We maintain a list of common issues that occur during installation as a referenc
 
 ***You need the latest version of 64-bit Git. Even if you already have Git installed on your PC, replace it with this new version.***
 
-Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code
-on [github.com](https://github.com). You will need a [supported web browser](https://help.github.com/articles/supported-browsers) (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
+Git lets you track and share changes made to files. Bash is a commonly-used command-line "shell" that gives you the power to do simple tasks more quickly.
 
-Bash is a commonly-used shell that gives you the power to do simple tasks more quickly.
-
-On Windows, the easiest way to get Bash is to use the copy that is included in the Git for Windows installer.
+On Windows, the easiest way to get both Git and Bash is to use the Git for Windows installer. Be sure to select the correct options below!
 
 1. Download the [Git for Windows Installer](https://git-for-windows.github.io).
-2. Run the installer and follow the steps below:
-   1. Click on "Next".
-   2. Click on "Next".
-   3. Click on "Next".
-   4. Click on "Next".
-   5. Click on "Next".
-   6. **Select "Use Git from the Windows Command Prompt" and click on "Next".** If you forget to do this, programs that you need for the workshop will not work properly. If this happens, rerun the installer and select the appropriate option.  Click "Next"
-   7. Keep **"Checkout Windows-style, commit Unix-style line endings"** selected. Click "Next".
-   8. Select **"Use Windows' default console window"** and click on "Next" and "Finish".
-3. ConsoleZ is a much nicer "terminal" program that has a legible font, resizable window, and more. You'll use ConsoleZ to launch the Bash terminal window instead of using the "Git Bash" icon.
-   * Download the [ConsoleZ Installer](/2015-12-scripting-workshop/setup/ConsoleZ-Installer.exe) and follow the default installer prompts.
-   * If Chrome or Firefox warns you that the installer file is untrusted, just go along with it. I created the installer here at PSRC and it is safe to install.
+2. Run the installer
+3. Click on "Next" **twice**, to get to the "Adjusting your PATH environment" page.
+4. **Select "Use Git from the Windows Command Prompt" and click on "Next".** If you forget to do this, programs that you need for the workshop will not work properly. If this happens, rerun the installer and select the appropriate option.
+5. Keep **"Checkout Windows-style, commit Unix-style line endings"** selected. Click "Next".
+6. Select **"Use Windows' default console window"** and click on "Next" and "Finish".
 
-#### B. Text Editor
+#### B. ConsoleZ Terminal (Command Line)
 
-When you're writing code, it's nice to have a text editor that is
-optimized for writing code, with features like automatic
-color-coding of key words.
+ConsoleZ is a much nicer "terminal" program that has a legible font, resizable window, and more. You'll use ConsoleZ to launch the Bash terminal window instead of using the "Git Bash" icon. Git Bash still works but its window is janky.
 
-The default text editor on Mac OS X and Linux is usually set to Vim, which is a bad choice for beginners. If you accidentally find yourself stuck in it, try typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
-exclamation mark), then hitting Return to return to the shell.
+* Download the [ConsoleZ Installer](/scripting-workshop-2016/setup/ConsoleZ-Installer.exe) and follow the default installer prompts.
+* If Chrome or Firefox warns you that the installer file is untrusted, just go along with it. I created the installer here at PSRC and it is safe to install.
 
-**nano** is a basic editor and the default that instructors use in the workshop.
+#### C. Text Editor
+
+When you're writing code, it's nice to have a text editor that is optimized for writing code, with features like automatic indentation and color-coding of key words. MS Word and WordPad are bad choices because they are not designed for writing code. Do not use MS Word or WordPad for this class.
+
+**nano** is a basic text editor and is the default that instructors use in the workshop. If you do not already have a text editor that you prefer, use nano.
 
 * To install nano, download the [Software Carpentry Windows installer](https://github.com/swcarpentry/windows-installer/releases/latest) and double click on the file to run it. *This installer requires an active internet connection.*
-* Even if you choose not to use nano, we recommend you run the Software Carpentry installer because it also sets sane defaults for some other tools such as SQLite and Make.
+
 * **Others editors** that you may want to use are [Notepad++](http://notepad-plus-plus.org) or [Sublime Text](http://www.sublimetext.com). Be aware that you must add the editor's installation directory to your system path. Please ask your instructor to help you do this.
 
-#### C. Python
+#### D. Python
 
-[Python](http://python.org) is a very popular language for
-scientific computing, and great for general-purpose programming as
-well.  Installing all of its scientific packages individually can be
-a bit difficult, so we recommend [Anaconda](https://www.continuum.io/anaconda), an all-in-one installer.
+[Python](http://python.org) is a very popular language for scientific computing, and great for general-purpose programming as
+well.  Installing all of its scientific packages individually can be a bit difficult, so we recommend [Anaconda](https://www.continuum.io/anaconda), an all-in-one installer.
 
 Regardless of how you choose to install it, **please make sure you install Python version 2.7**. We are not ready to move to Python 3 just yet.
 
-We will teach Python using the IPython notebook, a programming environment
-that runs in a web browser. For this to work, you will need an
-up-to-date browser. The current versions of the Chrome, Safari and
-Firefox browsers are [all supported](http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility). Some older browsers, including Internet Explorer version 9 and below, are not.
+We will teach Python using the IPython notebook, a programming environment that runs in a web browser. For this to work, you will need an up-to-date browser. The current versions of the Chrome, Safari and Firefox browsers are all supported. Some older browsers, including Internet Explorer version 9 and below, are not.
 
 To install Anaconda Python:
 
@@ -302,15 +287,13 @@ To install Anaconda Python:
 * Install Python 2.7 using all of the defaults for installation **except** make sure to check **Make Anaconda the default Python**.
 
 
-#### D. SQLite
+#### E. SQLite
 
-***FOR DISCUSSION*** - SQLite is easiest way to fiddle with SQL on a desktop. But we could also set up access to our "real" MySQL databases right?
+SQL is a specialized programming language used with databases. Here at PSRC, we have existing enterprise databases in MS-SQL and MySQL, but those are a bit complex to set up for desktop use. So for this course, we use a very simple database manager called [SQLite](http://www.sqlite.org). The SQL language is essentially identical, so the skills will all transfer -- and having a simple desktop version of SQL has its own benefits!
 
-SQL is a specialized programming language used with databases. Here at PSRC, we have existing enterprise databases in MS-SQL and MySQL, but those are a bit complex to set up. For this course, we use a simple database manager called [SQLite](http://www.sqlite.org). The SQL language is essentially identical, so the skills will all transfer -- and having a simple desktop version of SQL has its own benefits.
+* The [Software Carpentry Windows Installer](https://github.com/swcarpentry/windows-installer/releases/latest) installs SQLite for Windows. If you used the installer already to install the nano text editor above, you don't need to run it again. Otherwise, run it now.
 
-* The [Software Carpentry Windows Installer](https://github.com/swcarpentry/windows-installer/releases/latest) installs SQLite for Windows. If you used the installer already to install the nano text editor, you don't need to run it again. Otherwise, run it now.
-
-#### E. R-Project (Statistics Software)
+#### F. R Statistics Software
 
 [R](http://www.r-project.org) is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. To interact with R, we use [RStudio](http://www.rstudio.com).
 
@@ -351,7 +334,7 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
 </div> <!-- End of 'R' section. -->
 </td></tr></table>
 
-#### E. Check your setup
+#### G. Check your setup
 
 **To check you have the correct version of Python:**
 
@@ -365,7 +348,7 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
 **To check you have set up the other software requirements correctly:**
 
 * Download [swc-installation-test-2.py](/2015-12-scripting-workshop/setup/swc-installation-test-2.py)
-* Open up a Bash shell. Change into the directory where you put the script by typing in the bash window:
+* Open up a Bash shell using ConsoleZ or Git Bash. Change into the directory where you put the script by typing in the bash window:
    * <code>cd ~/Downloads</code>
 * Run the script:
    * <code>python swc-installation-test-2.py</code>
