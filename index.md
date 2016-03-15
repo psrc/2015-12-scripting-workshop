@@ -103,7 +103,7 @@ Email {% if page.contact %}
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-shell">Command-Line Ninja:<br/>The Unix Shell</h3>
+    <h3 id="syllabus-shell">The Bash Shell</h3>
     <i>March 21, 8:30am - 12:30pm</i>
     <ul>
       <li>Files and directories</li>
