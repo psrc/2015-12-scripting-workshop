@@ -51,6 +51,6 @@ if __name__ == '__main__':
         print('Passed')
     else:
         print('Failed')
-        print('Install a current version of Python 3!')
+        print('You need to remove old Python and install Python 2.7!')
         print('http://continuum.io/downloads')
         _sys.exit(1)
