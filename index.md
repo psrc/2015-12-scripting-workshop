@@ -237,7 +237,7 @@ A list of common issues that occur during installation as a reference: [Configur
 
 **Be sure to set up all six software items below on your primary desktop computer ahead of time -- before the day of the course.**
 
-#### 1. Git and the Unix 'Bash' Shell
+#### 1. Git and the 'Bash' Shell
 
 Git lets you track and share changes made to files, and Bash is a command-line "shell" (command interpreter) that gives you the power to do simple tasks more quickly.
 
