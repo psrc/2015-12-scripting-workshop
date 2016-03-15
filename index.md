@@ -287,11 +287,13 @@ To install Anaconda Python:
 We will teach Python using the IPython notebook, a programming environment that runs in a web browser. For this to work, you will need an up-to-date browser. The current versions of the Chrome, Safari and Firefox browsers are all supported. Some older browsers, including Internet Explorer version 9 and below, are not.
 
 
-#### 5. SQLite
+#### 5. SQLite and Make
 
 SQL is a programming language used with databases. Here at PSRC, we have existing enterprise databases in MS-SQL and MySQL, but those are a bit complex to set up for desktop use. For this workshop, we use a very simple database manager called [SQLite](http://www.sqlite.org). The SQL language is essentially identical, so the skills will all transfer -- and having a simple desktop version of SQL has its own benefits!
 
-* The [Software Carpentry Windows Installer](https://github.com/swcarpentry/windows-installer/releases/latest) installs SQLite for Windows. If you already used the installer to install the nano text editor above, you don't need to run it again. Otherwise, run it now.
+Make is a build tool that helps automate repetitive tasks.
+
+* The [Software Carpentry Windows Installer](https://github.com/swcarpentry/windows-installer/releases/latest) installs SQLite and Make for Windows. If you already used the installer to install the nano text editor above, you don't need to run it again. Otherwise, run it now.
 
 #### 6. R Statistics
 
