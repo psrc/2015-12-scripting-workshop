@@ -314,7 +314,8 @@ Important! Run these commands now, to ensure that all the previous steps worked 
    * <code>cd ~/Downloads</code>
 5. To check you have the correct version of Python, run the script:
    * <code>python swc-installation-test-1.py</code>
-6. To check you have set up the other software requirements correctly, run the script:
+   * If there are any errors, correct them now!
+6. After verifying Python works, check that you have set up the other software requirements correctly. Run the script:
    * <code>python swc-installation-test-2.py</code>
 
 If anything is missing, the script output will specify what needs to be corrected.
