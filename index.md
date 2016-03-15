@@ -239,11 +239,11 @@ A list of common issues that occur during installation as a reference: [Configur
 
 #### 1. Git and the Unix 'Bash' Shell
 
-*You need the **latest version of 64-bit Git**. Even if you already have Git installed on your PC, replace it with this new version.*
-
 Git lets you track and share changes made to files, and Bash is a command-line "shell" (command interpreter) that gives you the power to do simple tasks more quickly.
 
 On Windows, the easiest way to get both Git and Bash is to use the Git for Windows installer.
+
+*You need the **latest version of 64-bit Git**. Even if you already have Git installed on your PC, replace it with this new version.*
 
 *Be sure to select the correct installer options listed below!*
 
@@ -337,7 +337,7 @@ If anything is missing, the script output will specify what needs to be correcte
 
 * For older versions of OS X (10.5-10.8), use the most recent available installer labelled "snow-leopard" [available here](http://sourceforge.net/projects/git-osx-installer/files).
 
-*Python:** We recommend the Continuum Ananconda Python all-in-one python installer, which installs a basic Python system as well as the scientific computing modules required for this course.
+**Python:** We recommend the Continuum Ananconda Python all-in-one python installer, which installs a basic Python system as well as the scientific computing modules required for this course.
 
 * Open [http://continuum.io/downloads](http://continuum.io/downloads) with your web browser.
 * Download the Python 2.7 installer for OS X.  We are not using Python 3 yet.
@@ -345,7 +345,9 @@ If anything is missing, the script output will specify what needs to be correcte
 
 **SQLite**. SQLite comes pre-installed on Mac OS X.
 
-**R Statistics.** Install R by downloading and running [this .pkg file](http://cran.r-project.org/bin/macosx/R-latest.pkg)from [CRAN](http://cran.r-project.org/index.html).
+**R** Statistics software.
+
+* Install R by downloading and running [this .pkg file](http://cran.r-project.org/bin/macosx/R-latest.pkg) from [CRAN](http://cran.r-project.org/index.html).
 
 * Also install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop).
 
