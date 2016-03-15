@@ -110,8 +110,8 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-shell">Command-Line Ninja:<br/>The Bash Shell</h3>
-    <i>March 21, 8:30am - 12:30pm</i>
+    <h3 id="syllabus-shell"><span style="color:green;">Command-Line Ninja:<br/>The Bash Shell</span></h3>
+    <i><span style="color:green;">March 21, 8:30am - 12:30pm</span></i>
     <ul>
       <li>Why learn the bash shell?</li>
       <li>Files and directories</li>
@@ -125,8 +125,8 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
   </div>
 
   <div class="col-md-6">
-    <h3 id="syllabus-git">Version Control with Git</h3>
-    <i>March 28, 12:30pm - 4:30pm</i>
+    <h3 id="syllabus-git"><span style="color:green;">Version Control with Git</span></h3>
+    <i><span style="color:green;">March 28, 12:30pm - 4:30pm</span></i>
     <ul>
       <li>Creating a repository</li>
       <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
@@ -144,8 +144,8 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-sql">Managing Data with SQL</h3>
-    <i>March 29, 12:30pm - 4:30pm</i>
+    <h3 id="syllabus-sql"><span style="color:green;">Managing Data with SQL</span></h3>
+    <i><span style="color:green;">March 29, 12:30pm - 4:30pm</span></i>
     <ul>
       <li>Reading and sorting data</li>
       <li>Filtering with <code>where</code></li>
@@ -159,8 +159,8 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
   </div>
 
   <div class="col-md-6">
-    <h3 id="syllabus-r">Programming in R</h3>
-    <i>April 5, 12:30pm - 4:30pm</i>
+    <h3 id="syllabus-r"><span style="color:green;">Programming in R</span></h3>
+    <i><span style="color:green;">April 5, 12:30pm - 4:30pm</span></i>
     <ul>
       <li>Learning the basics in R</li>
       <li>Working with vectors and data frames</li>
@@ -175,8 +175,8 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-python">Programming in Python</h3>
-    <i>April 18, 12:30pm - 4:30pm</i>
+    <h3 id="syllabus-python"><span style="color:green;">Programming in Python</span></h3>
+    <i><span style="color:green;">April 18, 12:30pm - 4:30pm</span></i>
     <ul>
       <li>Introducing Python</li>
       <li>Working with arrays</li>
@@ -190,8 +190,8 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
   </div>
 
   <div class="col-md-6">
-    <h3 id="syllabus-make">Automation with Make</h3>
-    <i>April 19, 12:30pm - 4:30pm</i>
+    <h3 id="syllabus-make"><span style="color:green;">Automation with Make</span></h3>
+    <i><span style="color:green;">April 19, 12:30pm - 4:30pm</span></i>
     <ul>
       <li>Introduction: why use a build tool?</li>
       <li>Makefiles: rules for building things</li>
