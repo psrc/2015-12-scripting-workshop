@@ -228,8 +228,7 @@ You MUST set up the following software before the class begins.
 
 At the workshop, you will be using a laptop to remote control your primary work computer: that way, all the software setup can happen ahead of time, and all the software will be waiting for you when you get back to your desk after the workshop.
 
-A list of common issues that occur during installation as a reference: [Configuration Problems and Solutions wiki page](https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions).
-
+A reference list of common issues that occur during installation: [Configuration Problems and Solutions wiki page](https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions).
 
 ---
 
@@ -306,7 +305,7 @@ SQL is a programming language used with databases. Here at PSRC, we have existin
 **To check you have the correct version of Python:**
 
 1. Download [swc-installation-test-1.py](/2015-12-scripting-workshop/setup/swc-installation-test-1.py)
-2. Open up a Bash shell - start "ConsoleZ" or Git Bash" on Windows, or "Terminal" on Mac
+2. Open up a Bash shell: start "ConsoleZ" or "Git Bash" on Windows, or "Terminal" on Mac
 3. Change into the directory where you put the script by typing in the bash window:
    * <code>cd ~/Downloads</code>
 4. Run the script:
