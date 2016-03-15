@@ -73,7 +73,7 @@ This hands-on workshop will cover basic
 <table><tr>
 <td><b>Who:</b></td>
 
-<td>The course is aimed at practitioners, researchers and data scientists in any technical field. <i>You don't need to have any previous knowledge of the tools that will be presented at the workshop.</i></td></tr>
+<td>The course is aimed at practitioners, researchers and data scientists in any technical field. <i>You don't need to have any previous knowledge of the tools that will be presented at the workshop.</i><br/><br/>This course is aimed at <i>novices</i>. If you are already comfortable with the command line, SQL, and python scripts, you probably do not need to take this class.</td></tr>
 
 <td><b>Where:</b></td>
 
@@ -90,25 +90,33 @@ This hands-on workshop will cover basic
 
 </table>
 
-Email {% if page.contact %}
-[{{page.contact}}](mailto:{{page.contact}})
-{% else %}
-[{{site.contact}}](mailto:{{site.contact}})
-{% endif %} for more information.
-
+Email Billy Charlton for more information.
 
 ---
+
+{% if page.etherpad %}
+
+#### Etherpad
+
+We will use Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+
+**Etherpad:** [{{page.etherpad}}]({{page.etherpad}}).
+
+{% endif %}
+
+------
 
 ## Syllabus
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-shell">The Bash Shell</h3>
+    <h3 id="syllabus-shell">Command-Line Ninja: The Bash Shell</h3>
     <i>March 21, 8:30am - 12:30pm</i>
     <ul>
+      <li>Why learn the bash shell?</li>
       <li>Files and directories</li>
       <li>History and tab completion</li>
-      <li>Pipes and redirection</li>
+      <li>Linking programs with pipes and redirection</li>
       <li>Looping over files</li>
       <li>Creating and running shell scripts</li>
       <li>Finding things</li>
@@ -127,7 +135,7 @@ Email {% if page.contact %}
       <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
       <li>Collaborating with others</li>
       <li>Resolving conflicts</li>
-      <li>Where to host work, and why</li>
+      <li>Hosting files online using GitHub</li>
       <li><a href="{{site.swc_githubio}}/git-novice/reference.html">Reference...</a></li>
     </ul>
   </div>
@@ -146,7 +154,6 @@ Email {% if page.contact %}
       <li>Combining values using aggregation</li>
       <li>Combining information from multiple tables using <code>join</code></li>
       <li>Creating, modifying, and deleting data</li>
-      <li>Python and databases</li>
       <li><a href="{{site.swc_githubio}}/sql-novice-survey/reference.html">Reference...</a></li>
     </ul>
   </div>
@@ -155,6 +162,7 @@ Email {% if page.contact %}
     <h3 id="syllabus-r">Programming in R</h3>
     <i>April 5, 12:30pm - 4:30pm</i>
     <ul>
+      <li>Learning the basics in R</li>
       <li>Working with vectors and data frames</li>
       <li>Reading and plotting data</li>
       <li>Creating and using functions</li>
@@ -170,7 +178,7 @@ Email {% if page.contact %}
     <h3 id="syllabus-python">Programming in Python</h3>
     <i>April 18, 12:30pm - 4:30pm</i>
     <ul>
-      <li>Using libraries</li>
+      <li>Introducing Python</li>
       <li>Working with arrays</li>
       <li>Reading and plotting data</li>
       <li>Creating and using functions</li>
@@ -185,11 +193,11 @@ Email {% if page.contact %}
     <h3 id="syllabus-make">Automation with Make</h3>
     <i>April 19, 12:30pm - 4:30pm</i>
     <ul>
-      <li>Introduction</li>
-      <li>Makefiles</li>
-      <li>Automatic variables</li>
+      <li>Introduction: why use a "build tool"?</li>
+      <li>Rules for building things using Makefiles</li>
+      <li>Don't repeat yourself: automatic variables</li>
       <li>Dependencies on data and code</li>
-      <li>Pattern rules</li>
+      <li>Patterns, wildcards, and substitution rules</li>
       <li>Variables and Functions</li>
       <li><a href="{{site.swc_githubio}}/make-novice/reference.html">Reference...</a></li>
     </ul>
@@ -212,25 +220,14 @@ Email {% if page.contact %}
   e.g., '2015-06-10-esu'.
 -->
 
-{% if page.etherpad %}
-
-#### Etherpad
-
-We will use Etherpad for chatting, taking notes, and sharing URLs and bits of code.
-
-**Etherpad:** [{{page.etherpad}}]({{page.etherpad}}).
-
-{% endif %}
-
-------
 
 ## Setup
 
 You MUST set up the following software before the class begins.
 
-**Be sure to set up all five software items below on your primary desktop computer ahead of time -- before the day of the course.**
+**Be sure to set up all six software items below on your primary desktop computer ahead of time -- before the day of the course.**
 
-At the workshop, you will be using a borrowed laptop to remote control your primary work computer: that way, all the software setup can happen ahead of time. Added bonus: all the software will be right at your fingertips when you get back to your desk, ready for you to dive in.
+At the workshop, you will be using a laptop to remote control your primary work computer: that way, all the software setup can happen ahead of time, and all the software will be waiting for you when you get back to your desk after the workshop.
 
 A list of common issues that occur during installation as a reference: [Configuration Problems and Solutions wiki page](https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions).
 
@@ -239,13 +236,15 @@ A list of common issues that occur during installation as a reference: [Configur
 
 ### Windows Instructions
 
-#### A. Git and the Unix 'Bash' Shell
+#### 1. Git and the Unix 'Bash' Shell
 
 ***You need the latest version of 64-bit Git. Even if you already have Git installed on your PC, replace it with this new version.***
 
 Git lets you track and share changes made to files. Bash is a commonly-used command-line "shell" that gives you the power to do simple tasks more quickly.
 
-On Windows, the easiest way to get both Git and Bash is to use the Git for Windows installer. Be sure to select the correct options below!
+On Windows, the easiest way to get both Git and Bash is to use the Git for Windows installer.
+
+Be sure to select the correct installer options listed below!
 
 1. Download the [Git for Windows Installer](https://git-for-windows.github.io).
 2. Run the installer
@@ -254,31 +253,31 @@ On Windows, the easiest way to get both Git and Bash is to use the Git for Windo
 5. Keep **"Checkout Windows-style, commit Unix-style line endings"** selected. Click "Next".
 6. Select **"Use Windows' default console window"** and click on "Next" and "Finish".
 
-#### B. ConsoleZ Terminal (Command Line)
+#### 2. ConsoleZ Command Terminal
 
-ConsoleZ is a much nicer "terminal" program that has a legible font, resizable window, and more. You'll use ConsoleZ to launch the Bash terminal window instead of using the "Git Bash" icon. Git Bash still works but its window is janky.
+ConsoleZ is a much nicer "terminal" program that has a legible font, resizable window, and more. You'll use ConsoleZ to use the Bash program instead of using the "Git Bash" icon. Git Bash still works, but its window is janky.
 
 * Download the [ConsoleZ Installer](/scripting-workshop-2016/setup/ConsoleZ-Installer.exe) and follow the default installer prompts.
 * If Chrome or Firefox warns you that the installer file is untrusted, just go along with it. I created the installer here at PSRC and it is safe to install.
 
-#### C. Text Editor
 
-When you're writing code, it's nice to have a text editor that is optimized for writing code, with features like automatic indentation and color-coding of key words. MS Word and WordPad are bad choices because they are not designed for writing code. Do not use MS Word or WordPad for this class.
+#### 3. Text Editor
 
-**nano** is a basic text editor and is the default that instructors use in the workshop. If you do not already have a text editor that you prefer, use nano.
+When you're writing scripts, it's nice to have a text editor that is optimized for code, with features like automatic indentation and color-coding of key words. MS Word and WordPad are bad choices because they are not designed for writing code. Do not use MS Word or WordPad for this class.
 
-* To install nano, download the [Software Carpentry Windows installer](https://github.com/swcarpentry/windows-installer/releases/latest) and double click on the file to run it. *This installer requires an active internet connection.*
+**Nano** is a basic text editor and is the default that instructors use in the workshop. If you do not already have a text editor that you prefer, use nano.
 
-* **Others editors** that you may want to use are [Notepad++](http://notepad-plus-plus.org) or [Sublime Text](http://www.sublimetext.com). Be aware that you must add the editor's installation directory to your system path. Please ask your instructor to help you do this.
+* To install nano, download the [Software Carpentry Windows installer](https://github.com/swcarpentry/windows-installer/releases/latest) and double click on the file to run it.
 
-#### D. Python
+* **Others editors** that you may want to use are [Notepad++](http://notepad-plus-plus.org) or [Sublime Text](http://www.sublimetext.com). Be aware that you must add the editor's installation directory to your system path. Please ask a coworker or your instructor for assistance if you don't know how to edit your system path.
 
-[Python](http://python.org) is a very popular language for scientific computing, and great for general-purpose programming as
-well.  Installing all of its scientific packages individually can be a bit difficult, so we recommend [Anaconda](https://www.continuum.io/anaconda), an all-in-one installer.
+
+#### 4. Python
+
+[Python](http://python.org) is one of the most popular programming languages for scientific computing, and great for general-purpose programming as
+well. Python has many optional packages called "libraries" and we use a lot of them at PSRC and in this class. Installing all of its scientific libraries individually can be a bit difficult, so we recommend [Anaconda](https://www.continuum.io/anaconda), an all-in-one installer.
 
 Regardless of how you choose to install it, **please make sure you install Python version 2.7**. We are not ready to move to Python 3 just yet.
-
-We will teach Python using the IPython notebook, a programming environment that runs in a web browser. For this to work, you will need an up-to-date browser. The current versions of the Chrome, Safari and Firefox browsers are all supported. Some older browsers, including Internet Explorer version 9 and below, are not.
 
 To install Anaconda Python:
 
@@ -286,55 +285,23 @@ To install Anaconda Python:
 * Download the Python 2.7 installer for Windows.
 * Install Python 2.7 using all of the defaults for installation **except** make sure to check **Make Anaconda the default Python**.
 
+We will teach Python using the IPython notebook, a programming environment that runs in a web browser. For this to work, you will need an up-to-date browser. The current versions of the Chrome, Safari and Firefox browsers are all supported. Some older browsers, including Internet Explorer version 9 and below, are not.
 
-#### E. SQLite
 
-SQL is a specialized programming language used with databases. Here at PSRC, we have existing enterprise databases in MS-SQL and MySQL, but those are a bit complex to set up for desktop use. So for this course, we use a very simple database manager called [SQLite](http://www.sqlite.org). The SQL language is essentially identical, so the skills will all transfer -- and having a simple desktop version of SQL has its own benefits!
+#### 5. SQLite
+
+SQL is a specialized programming language used with databases. Here at PSRC, we have existing enterprise databases in MS-SQL and MySQL, but those are a bit complex to set up for desktop use. For this course, we use a very simple database manager called [SQLite](http://www.sqlite.org). The SQL language is essentially identical, so the skills will all transfer -- and having a simple desktop version of SQL has its own benefits!
 
 * The [Software Carpentry Windows Installer](https://github.com/swcarpentry/windows-installer/releases/latest) installs SQLite for Windows. If you used the installer already to install the nano text editor above, you don't need to run it again. Otherwise, run it now.
 
-#### F. R Statistics Software
+#### 6. R Statistics
 
 [R](http://www.r-project.org) is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. To interact with R, we use [RStudio](http://www.rstudio.com).
 
-<table><tr><td>
-<div class="row">
-    <div class="col-md-4">
-      <h5 id="r-windows">Windows</h5>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.</p>
-        <p>Then install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-        </p>
-    </div>
-    <div class="col-md-4">
-      <h5 id="r-macosx">Mac OS X</h5>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        <br/>Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h5 id="r-linux">Linux</h5>
-      <p>
-        You can download the binary files for your distribution
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
-        you can use your package manager (e.g. for Debian/Ubuntu
-        run <code>sudo apt-get install r-base</code> and for Fedora run
-        <code>sudo yum install R</code>).
-        <br/>Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-</div> <!-- End of 'R' section. -->
-</td></tr></table>
+* Install R by downloading and running [this .exe file](http://cran.r-project.org/bin/windows/base/release.htm) from [CRAN](http://cran.r-project.org/index.html).
+* Then install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop).
 
-#### G. Check your setup
+#### 7. Check your setup
 
 **To check you have the correct version of Python:**
 
@@ -371,10 +338,12 @@ If anything is missing, the script output will specify what needs to be correcte
   * Download the Python 2.7 installer for OS X.  We are not using Python 3 yet.
   * Install Python 2.7 using all of the defaults for installation.
 * **SQLite**. SQLite comes pre-installed on Mac OS X.
+* **R Statistics**
+  * Install R by downloading and running [this .pkg file](http://cran.r-project.org/bin/macosx/R-latest.pkg)from [CRAN](http://cran.r-project.org/index.html).
+  * Also install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop).
 
 ---
 
 ### Linux
 
-Use your system's package manager to install python, sqlite, git, and nano.
-
+Use your system's package manager to install python, sqlite, git, r, make, and nano.
