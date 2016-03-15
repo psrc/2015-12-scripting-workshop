@@ -111,7 +111,7 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
 <div class="row">
   <div class="col-md-6">
     <h3 id="syllabus-shell">Command-Line Ninja:<br/>The Bash Shell</h3>
-    <i>March 21, 8:30am - 12:30pm</i>
+    <i><span style="color:green;">March 21, 8:30am - 12:30pm</span></i>
     <ul>
       <li>Why learn the bash shell?</li>
       <li>Files and directories</li>
