@@ -309,7 +309,7 @@ Important! Run these commands now, to ensure that all the previous steps worked 
 
 1. Download [swc-installation-test-1.py](/scripting-workshop-2016/setup/swc-installation-test-1.py)
 2. Download [swc-installation-test-2.py](/scripting-workshop-2016/setup/swc-installation-test-2.py)
-3. Open up a Bash shell: start "ConsoleZ" or "Git Bash" on Windows, or "Terminal" on Mac
+3. Open up a Bash shell by starting "ConsoleZ" or "Git Bash" on Windows, or "Terminal" on Mac
 4. Change into the directory where you put the script by typing in the bash window:
    * <code>cd ~/Downloads</code>
 5. To check you have the correct version of Python, run the script:
