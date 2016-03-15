@@ -306,11 +306,11 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
 
 **To check you have the correct version of Python:**
 
-1 Download [swc-installation-test-1.py](/2015-12-scripting-workshop/setup/swc-installation-test-1.py)
-2 Open up a Bash shell - start "ConsoleZ" or Git Bash" on Windows, or "Terminal" on Mac
-3 Change into the directory where you put the script by typing in the bash window:
+1. Download [swc-installation-test-1.py](/2015-12-scripting-workshop/setup/swc-installation-test-1.py)
+2. Open up a Bash shell - start "ConsoleZ" or Git Bash" on Windows, or "Terminal" on Mac
+3. Change into the directory where you put the script by typing in the bash window:
    * <code>cd ~/Downloads</code>
-4 Run the script:
+4. Run the script:
    * <code>python swc-installation-test-1.py</code>
 
 **To check you have set up the other software requirements correctly:**
@@ -328,13 +328,17 @@ If anything is missing, the script output will specify what needs to be correcte
 ### Mac OS X
 
 **Bash:** the default shell in all versions of Mac OS X is Bash, so no need to install anything.
+
 * You access Bash from the Terminal
         (found in <code>/Applications/Utilities</code>). You may want to keep Terminal in your dock for this workshop.
+
 **Git:** For OS X 10.9 and higher, install Git for Mac by downloading and running the most recent "mavericks" installer from
         [this list](http://sourceforge.net/projects/git-osx-installer/files/). After installing Git, there will not be anything in your <code>/Applications</code> folder, as Git is a command line program.
+
 * For older versions of OS X (10.5-10.8), use the most recent available installer labelled "snow-leopard" [available here](http://sourceforge.net/projects/git-osx-installer/files).
 
 *Python:** We recommend the Continuum Ananconda Python all-in-one python installer, which installs a basic Python system as well as the scientific computing modules required for this course.
+
 * Open [http://continuum.io/downloads](http://continuum.io/downloads) with your web browser.
 * Download the Python 2.7 installer for OS X.  We are not using Python 3 yet.
 * Install Python 2.7 using all of the defaults for installation.
