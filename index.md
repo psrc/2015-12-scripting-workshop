@@ -104,7 +104,7 @@ Email {% if page.contact %}
 <div class="row">
   <div class="col-md-6">
     <h3 id="syllabus-shell">Command-Line Ninja:<br/>The Unix Shell</h3>
-    March 21, 8:30am
+    <i>March 21, 8:30am - 12:30pm</i>
     <ul>
       <li>Files and directories</li>
       <li>History and tab completion</li>
@@ -115,8 +115,10 @@ Email {% if page.contact %}
       <li><a href="{{site.swc_githubio}}/shell-novice/reference.html">Reference...</a></li>
     </ul>
   </div>
+
   <div class="col-md-6">
     <h3 id="syllabus-git">Version Control with Git</h3>
+    <i>March 28, 12:30pm - 4:30pm</i>
     <ul>
       <li>Creating a repository</li>
       <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
@@ -134,20 +136,8 @@ Email {% if page.contact %}
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-python">Programming in Python</h3>
-    <ul>
-      <li>Using libraries</li>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li>Using Python from the command line</li>
-      <li><a href="{{site.swc_githubio}}/python-novice-inflammation/reference.html">Reference...</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
     <h3 id="syllabus-sql">Managing Data with SQL</h3>
+    <i>March 29, 12:30pm - 4:30pm</i>
     <ul>
       <li>Reading and sorting data</li>
       <li>Filtering with <code>where</code></li>
@@ -160,11 +150,10 @@ Email {% if page.contact %}
       <li><a href="{{site.swc_githubio}}/sql-novice-survey/reference.html">Reference...</a></li>
     </ul>
   </div>
-</div>
 
-<div class="row">
   <div class="col-md-6">
     <h3 id="syllabus-r">Programming in R</h3>
+    <i>April 5, 12:30pm - 4:30pm</i>
     <ul>
       <li>Working with vectors and data frames</li>
       <li>Reading and plotting data</li>
@@ -174,9 +163,27 @@ Email {% if page.contact %}
       <li><a href="{{site.swc_githubio}}/r-novice-inflammation/reference.html">Reference...</a></li>
     </ul>
   </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3 id="syllabus-python">Programming in Python</h3>
+    <i>April 18, 12:30pm - 4:30pm</i>
+    <ul>
+      <li>Using libraries</li>
+      <li>Working with arrays</li>
+      <li>Reading and plotting data</li>
+      <li>Creating and using functions</li>
+      <li>Loops and conditionals</li>
+      <li>Defensive programming</li>
+      <li>Using Python from the command line</li>
+      <li><a href="{{site.swc_githubio}}/python-novice-inflammation/reference.html">Reference...</a></li>
+    </ul>
+  </div>
 
   <div class="col-md-6">
     <h3 id="syllabus-make">Automation with Make</h3>
+    <i>April 19, 12:30pm - 4:30pm</i>
     <ul>
       <li>Introduction</li>
       <li>Makefiles</li>
