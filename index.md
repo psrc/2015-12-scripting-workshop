@@ -270,20 +270,18 @@ When you're writing scripts, it's nice to have a text editor that is optimized f
 **Nano** is a basic text editor and is the default that instructors use in the workshop. If you do not already have a text editor that you prefer, use nano.
 
 * To install nano, download the [Software Carpentry Windows installer](https://github.com/swcarpentry/windows-installer/releases/latest) and double click on the file to run it.
-
-* **Others editors** in use at PSRC that you may want to use or try include [Notepad++](http://notepad-plus-plus.org) and [Sublime Text](http://www.sublimetext.com). Be aware that you must add the editor's installation directory to your system path. Please ask a coworker or your instructor for assistance if you don't know how to edit your system path.
+* **Other editors** in use at PSRC that you may want to try include [Notepad++](http://notepad-plus-plus.org) and [Sublime Text](http://www.sublimetext.com). Be aware that you must add the editor's installation directory to your system path. Please ask a coworker or your instructor for assistance if you don't know how to edit your system path.
 
 
 #### 4. Python
 
-[Python](http://python.org) is one of the most popular programming languages for scientific computing, and great for general-purpose programming as
-well. Python has many optional packages called "libraries" and we use a lot of them at PSRC and in this class. Installing all of its scientific libraries individually can be a bit difficult, so we recommend [Anaconda](https://www.continuum.io/anaconda), an all-in-one installer.
+[Python](http://python.org) is a great general-purpose programming language, and is one of the most popular tools for scientific computing as well. It has many optional packages called "libraries", and we use a lot of them at PSRC. Installing all of Python's scientific libraries individually can be a bit difficult, so we recommend [Anaconda](https://www.continuum.io/anaconda), an all-in-one installer.
 
 Regardless of how you choose to install it, **please make sure you install Python version 2.7**. We are not ready to move to Python 3 just yet.
 
 To install Anaconda Python:
 
-* Open the Continuum Ananaconda [download page](http://continuum.io/downloads) with your web browser.
+* Open the Continuum Anaconda [download page](http://continuum.io/downloads) with your web browser.
 * Download the Python 2.7 installer for Windows.
 * Install Python 2.7 using all of the defaults for installation **except** make sure to check **Make Anaconda the default Python**.
 
@@ -292,9 +290,9 @@ We will teach Python using the IPython notebook, a programming environment that 
 
 #### 5. SQLite
 
-SQL is a specialized programming language used with databases. Here at PSRC, we have existing enterprise databases in MS-SQL and MySQL, but those are a bit complex to set up for desktop use. For this course, we use a very simple database manager called [SQLite](http://www.sqlite.org). The SQL language is essentially identical, so the skills will all transfer -- and having a simple desktop version of SQL has its own benefits!
+SQL is a programming language used with databases. Here at PSRC, we have existing enterprise databases in MS-SQL and MySQL, but those are a bit complex to set up for desktop use. For this workshop, we use a very simple database manager called [SQLite](http://www.sqlite.org). The SQL language is essentially identical, so the skills will all transfer -- and having a simple desktop version of SQL has its own benefits!
 
-* The [Software Carpentry Windows Installer](https://github.com/swcarpentry/windows-installer/releases/latest) installs SQLite for Windows. If you used the installer already to install the nano text editor above, you don't need to run it again. Otherwise, run it now.
+* The [Software Carpentry Windows Installer](https://github.com/swcarpentry/windows-installer/releases/latest) installs SQLite for Windows. If you already used the installer to install the nano text editor above, you don't need to run it again. Otherwise, run it now.
 
 #### 6. R Statistics
 
@@ -349,7 +347,6 @@ If anything is missing, the script output will specify what needs to be correcte
 **R** Statistics software.
 
 * Install R by downloading and running [this .pkg file](http://cran.r-project.org/bin/macosx/R-latest.pkg) from [CRAN](http://cran.r-project.org/index.html).
-
 * Also install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop).
 
 ---
