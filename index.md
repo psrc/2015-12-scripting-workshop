@@ -104,6 +104,7 @@ Email {% if page.contact %}
 <div class="row">
   <div class="col-md-6">
     <h3 id="syllabus-shell">Command-Line Ninja:<br/>The Unix Shell</h3>
+    March 21, 8:30am
     <ul>
       <li>Files and directories</li>
       <li>History and tab completion</li>
