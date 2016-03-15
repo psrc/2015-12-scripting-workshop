@@ -243,9 +243,9 @@ Git lets you track and share changes made to files, and Bash is a command-line "
 
 On Windows, the easiest way to get both Git and Bash is to use the Git for Windows installer.
 
-*You need the **latest version of 64-bit Git**. Even if you already have Git installed on your PC, replace it with this new version.*
+* You need the **latest version of 64-bit Git**. Even if you already have Git installed on your PC, replace it with this new version.
 
-*Be sure to select the correct installer options listed below!*
+* Be sure to select the correct installer options listed below!
 
 1. Download the [Git for Windows Installer](https://git-for-windows.github.io).
 2. Run the installer
