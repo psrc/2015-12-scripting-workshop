@@ -13,7 +13,7 @@ enddate: "2016-03-28"    # use YYYY-MM-DD format like" 2015-01-02"
 instructor: ["Billy Charlton", "Suzanne&nbsp;Childress", "Brice&nbsp;Nichols", "Hana&nbsp;Ševčíková"]
 helper: ['Peter Caballero, Stefan Coe']
 contact: "bcharlton@psrc.org"
-etherpad: "https://public.etherpad-mozilla.org/p/psrc-scripting-workshop-2016"
+# etherpad: "https://public.etherpad-mozilla.org/p/psrc-scripting-workshop-2016"
 eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
 ---
 
