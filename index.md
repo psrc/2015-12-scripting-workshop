@@ -322,6 +322,7 @@ If anything is missing, the script output will specify what needs to be correcte
 
 ---
 
+<!--
 ### Mac OS X
 
 **Bash:** the default shell in all versions of Mac OS X is Bash, so no need to install anything.
@@ -352,3 +353,5 @@ If anything is missing, the script output will specify what needs to be correcte
 ### Linux
 
 Use your system's package manager to install python, sqlite, git, r, make, and nano.
+
+-->
