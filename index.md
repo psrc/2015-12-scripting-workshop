@@ -277,9 +277,9 @@ When you're writing scripts, it's nice to have a text editor that is optimized f
 
 [Python](http://python.org) is a great general-purpose programming language, and is one of the most popular tools for scientific computing as well. It has many optional packages called "libraries", and we use a lot of them at PSRC. Installing all of Python's scientific libraries individually can be a bit difficult, so we recommend [Anaconda](https://www.continuum.io/anaconda), an all-in-one installer.
 
-Regardless of how you choose to install it, **please make sure you install Python version 2.7**. We are not ready to move to Python 3 just yet.
+**Make sure you install Python version 2.7**. If you have an older version of Python such as 2.6, you will probably need to uninstall it. Also we are not ready to move to Python 3 just yet. Don't install Python 3.
 
-To install Anaconda Python:
+To install Anaconda Python 2.7:
 
 * Open the Continuum Anaconda [download page](http://continuum.io/downloads) with your web browser.
 * Download the Python 2.7 installer for Windows.
