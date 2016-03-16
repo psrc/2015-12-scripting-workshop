@@ -92,9 +92,9 @@ This hands-on workshop will cover basic
 
 Email Billy Charlton for more information.
 
----
-
 {% if page.etherpad %}
+
+---
 
 #### Etherpad
 
