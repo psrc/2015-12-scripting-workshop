@@ -348,8 +348,6 @@ If anything is missing, the script output will specify what needs to be correcte
 * Install R by downloading and running [this .pkg file](http://cran.r-project.org/bin/macosx/R-latest.pkg) from [CRAN](http://cran.r-project.org/index.html).
 * Also install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop).
 
----
-
 ### Linux
 
 Use your system's package manager to install python, sqlite, git, r, make, and nano.
