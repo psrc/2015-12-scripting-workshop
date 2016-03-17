@@ -249,7 +249,7 @@ Installation instructions for both Git and Bash:
 
 1. Download the [Git for Windows Installer](https://git-for-windows.github.io).
 2. Run the installer
-3. Click on "Next" **twice**, to get to the "Adjusting your PATH environment" page.
+3. Click on "Next" a few times to get to the "Adjusting your PATH environment" page.
 4. Select **"Use Git from the Windows Command Prompt"** and click on "Next". If you forget to do this, programs that you need for the workshop *will not work properly.* If this happens, rerun the installer and select the appropriate option.
 5. Keep **"Checkout Windows-style, commit Unix-style line endings"** selected. Click "Next".
 6. Select **"Use Windows' default console window"** and click on "Next" and "Finish".
@@ -283,7 +283,7 @@ To install Anaconda Python 2.7:
 
 * Open the Continuum Anaconda [download page](http://continuum.io/downloads) with your web browser.
 * Download the Python 2.7 installer for Windows.
-* Install Python 2.7 using all of the defaults for installation **except** make sure to check **Make Anaconda the default Python**.
+* Install Python 2.7 using all of the defaults -- and make sure to check **Make Anaconda the default Python**.
 
 We will teach Python using the IPython notebook, a programming environment that runs in a web browser. For this to work, you will need an up-to-date browser. The current versions of the Chrome, Safari and Firefox browsers are all supported. Some older browsers, including Internet Explorer version 9 and below, are not.
 
