@@ -108,7 +108,6 @@ Email Billy Charlton for more information.
       <li>Looping over files</li>
       <li>Creating and running shell scripts</li>
       <li>Finding things</li>
-      <li><a href="{{site.swc_githubio}}/shell-novice/reference.html">Reference...</a></li>
     </ul>
   </div>
 
@@ -124,7 +123,6 @@ Email Billy Charlton for more information.
       <li>Collaborating with others</li>
       <li>Resolving conflicts</li>
       <li>Hosting files online using GitHub</li>
-      <li><a href="{{site.swc_githubio}}/git-novice/reference.html">Reference...</a></li>
     </ul>
   </div>
 
@@ -142,7 +140,6 @@ Email Billy Charlton for more information.
       <li>Combining values using aggregation</li>
       <li>Combining information from multiple tables using <code>join</code></li>
       <li>Creating, modifying, and deleting data</li>
-      <li><a href="{{site.swc_githubio}}/sql-novice-survey/reference.html">Reference...</a></li>
     </ul>
   </div>
 
@@ -156,7 +153,6 @@ Email Billy Charlton for more information.
       <li>Creating and using functions</li>
       <li>Loops and conditionals</li>
       <li>Using R from the command line</li>
-      <li><a href="{{site.swc_githubio}}/r-novice-inflammation/reference.html">Reference...</a></li>
     </ul>
   </div>
 </div>
@@ -173,7 +169,6 @@ Email Billy Charlton for more information.
       <li>Loops and conditionals</li>
       <li>Defensive programming</li>
       <li>Using Python from the command line</li>
-      <li><a href="{{site.swc_githubio}}/python-novice-inflammation/reference.html">Reference...</a></li>
     </ul>
   </div>
 
@@ -187,7 +182,6 @@ Email Billy Charlton for more information.
       <li>Dependencies on data and code</li>
       <li>Patterns, wildcards, and substitution rules</li>
       <li>Variables and Functions</li>
-      <li><a href="{{site.swc_githubio}}/make-novice/reference.html">Reference...</a></li>
     </ul>
   </div>
 
