@@ -92,25 +92,13 @@ This hands-on workshop will cover basic
 
 Email Billy Charlton for more information.
 
-{% if page.etherpad %}
-
----
-
-#### Etherpad
-
-We will use Etherpad for chatting, taking notes, and sharing URLs and bits of code.
-
-**Etherpad:** [{{page.etherpad}}]({{page.etherpad}}).
-
-{% endif %}
-
 ------
 
 ## Syllabus
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-shell"><span style="color:green;">Command-Line Ninja:<br/>The Bash Shell</span></h3>
+    <h3 id="syllabus-shell"><span style="color:green;"><a href="http://psrc.github.io/novice-shell">Command-Line Ninja:<br/>The Bash Shell</a></span></h3>
     <i><span style="color:green;">March 21, 8:30am - 12:30pm</span></i>
     <ul>
       <li>Why learn the bash shell?</li>
@@ -125,7 +113,7 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
   </div>
 
   <div class="col-md-6">
-    <h3 id="syllabus-git"><span style="color:green;">Version Control with Git</span></h3>
+    <h3 id="syllabus-git"><span style="color:green;"><a href="http://psrc.github.io/novice-git">Version Control with Git</a></span></h3>
     <i><span style="color:green;">March 28, 12:30pm - 4:30pm</span></i>
     <ul>
       <li>Creating a repository</li>
@@ -144,7 +132,7 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-sql"><span style="color:green;">Managing Data with SQL</span></h3>
+    <h3 id="syllabus-sql"><span style="color:green;"><a href="http://swcarpentry.github.io/sql-novice-survey/">Managing Data with SQL</a></span></h3>
     <i><span style="color:green;">March 29, 12:30pm - 4:30pm</span></i>
     <ul>
       <li>Reading and sorting data</li>
@@ -159,7 +147,7 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
   </div>
 
   <div class="col-md-6">
-    <h3 id="syllabus-r"><span style="color:green;">Programming in R</span></h3>
+    <h3 id="syllabus-r"><span style="color:green;"><a href="http://psrc.github.io/novice-r">Programming in R</a></span></h3>
     <i><span style="color:green;">April 5, 12:30pm - 4:30pm</span></i>
     <ul>
       <li>Learning the basics in R</li>
@@ -175,7 +163,7 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-python"><span style="color:green;">Programming in Python</span></h3>
+    <h3 id="syllabus-python"><span style="color:green;"><a href="http://psrc.github.io/novice-python-data-analysis">Programming in Python</a></span></h3>
     <i><span style="color:green;">April 18, 12:30pm - 4:30pm</span></i>
     <ul>
       <li>Introducing Python</li>
@@ -190,7 +178,7 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
   </div>
 
   <div class="col-md-6">
-    <h3 id="syllabus-make"><span style="color:green;">Automation with Make</span></h3>
+    <h3 id="syllabus-make"><span style="color:green;"><a href="http://psrc.github.io/novice-make">Automation with Make</a></span></h3>
     <i><span style="color:green;">April 19, 12:30pm - 4:30pm</span></i>
     <ul>
       <li>Introduction: why use a build tool?</li>
