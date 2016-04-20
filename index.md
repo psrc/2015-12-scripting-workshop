@@ -6,7 +6,7 @@ address: Puget Sound Regional Council, 1011 Western Ave, Suite 500, Seattle WA
 country: us
 language: en
 latlng: 47.6054148,-122.337372
-humandate: "March 28, 2016"
+humandate: "Spring 2016"
 humantime: "12:30 pm - 4:30 pm daily"
 startdate: "2016-03-28"  # use YYYY-MM-DD format like "2015-01-01"
 enddate: "2016-03-28"    # use YYYY-MM-DD format like" 2015-01-02"
