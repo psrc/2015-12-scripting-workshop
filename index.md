@@ -112,7 +112,7 @@ Email Billy Charlton for more information.
   </div>
 
   <div class="col-md-6">
-    <h3 id="syllabus-git"><span style="color:green;"><a href="http://psrc.github.io/novice-git">Version Control with Git</a></span></h3>
+    <h3 id="syllabus-git"><span style="color:green;"><a href="http://swcarpentry.github.io/sql-novice-survey">Version Control with Git</a></span></h3>
     <i><span style="color:green;">March 28, 12:30pm - 4:30pm</span></i>
     <ul>
       <li>Creating a repository</li>
